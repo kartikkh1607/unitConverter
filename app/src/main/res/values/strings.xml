@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">unitConverter</string>
+<<<<<<< HEAD
 </resources>
+=======
+
+    <!-- Strings for UnitConverterScreen -->
+    <string name="unit_converter_title">Unit Converter</string>
+    <string name="enter_value_label">Enter Value</string>
+    <string name="from_unit_label">From Unit</string>
+    <string name="to_unit_label">To Unit</string>
+    <string name="result_label">Result: %1$s</string> <!-- %1$s is a placeholder for the result value -->
+</resources>
+>>>>>>> 4bfa724 (commit message)

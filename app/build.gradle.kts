@@ -41,6 +41,18 @@ android {
 
 dependencies {
 
+<<<<<<< HEAD
+=======
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
+// Lifecycle runtime (required for collecting flows, etc.)
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+
+// Optional: ViewModel Compose integration (only if you're using viewModel() inside Composables)
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
+>>>>>>> 4bfa724 (commit message)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

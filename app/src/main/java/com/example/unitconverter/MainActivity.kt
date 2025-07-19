@@ -1,6 +1,7 @@
 package com.example.unitconverter
 
 import android.os.Bundle
+<<<<<<< HEAD
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -39,18 +40,31 @@ import androidx.compose.ui.util.fastCbrt
 import com.example.unitconverter.ui.theme.UnitConverterTheme
 import java.nio.file.WatchEvent
 import kotlin.math.roundToInt
+=======
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import com.example.unitconverter.ui.screens.UnitConverterScreen
+import com.example.unitconverter.ui.theme.UnitConverterTheme
+>>>>>>> 4bfa724 (commit message)
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< HEAD
         enableEdgeToEdge()
         setContent {
             UnitConverterTheme {
                 UnitConverter()
+=======
+        setContent {
+            UnitConverterTheme {
+                UnitConverterScreen()
+>>>>>>> 4bfa724 (commit message)
             }
         }
     }
 }
+<<<<<<< HEAD
 
 @Composable
 fun UnitConverter(){
@@ -215,3 +229,5 @@ fun UnitConverterPreview()
 {
     UnitConverter()
 }
+=======
+>>>>>>> 4bfa724 (commit message)
